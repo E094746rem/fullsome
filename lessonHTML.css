@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  height: 2000px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px;
+  background-color: bisque;
+  position: relative;
+  top: o;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+.leftsec{
+  padding: 0;
+  height: 30px;
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.middelsec{
+  position: absolute;
+  top: 0;
+  right: 450px;
+}
+
+.rightsec{
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+
+.goo{
+  margin-right: 10px;
+}
+
+.back{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(40%);
+}
+
+.center{
+  display: block;
+  color: bisque;
+  width: 70%;
+  height: 50%;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  z-index: 5;
+}
+
+.center img{
+  display: flex;
+  background-color: transparent;
+  width: 100px;
+  height: 90px;
+  position: absolute;
+  left: 300px;
+}
+
+.center h1{
+  position: absolute;
+  left: 450px;
+}
+.center p{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  letter-spacing: 1px;
+  width: 800px;
+}
+
+.backg{
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+.center div{
+  position: absolute;
+  top: 330px;
+  left: 100px;
+  letter-spacing: 1px;
+  width: 800px;
+}
+
+.video-less video{
+  position: absolute;
+  bottom: 250px;
+  left: 320px; 
+  width: 680px;
+  height: 400px;
+  z-index: 7;
+}
+
+.icon-link{
+  margin-top: 100px;
+  padding: 0;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  left: 10px;
+  width: 100px;
+  z-index: 100;
+}
+.icon-link img{
+  margin-bottom: 30px;
+  width: 60px;
+  height: 50px;
+  position: relative;
+}

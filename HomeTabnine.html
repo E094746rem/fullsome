@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabnine/Home</title>
+ <style>
+        .body{
+            height: 1000px;
+            background-color: #E4E7ED;
+        }
+    .Header{
+        display: flex;
+        flex-direction:row;
+        justify-content:space-between;
+        background-color: #409EFF;
+        flex: 1fr;
+        position: fixed;
+        left: 30px;
+        right: 30px;
+        top: 0;
+        z-index: 100;
+        border-radius: 35px;
+       
+    }
+    .left-sec{
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        padding-left: 5px;
+        padding-top: 3px;
+        width: 1fr;
+        cursor: pointer;
+        border-style: solid;
+        border-width: 0;
+        width: 70px;
+    }
+    .left-sec div{
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15px;
+        padding-bottom: 0;
+        padding-top: 5px;
+        border-color: #606266;
+        
+    }
+    .right-sec{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+        
+    }
+    .right-sec div{
+        padding-left: 7px;
+    }
+    .button{
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        background-color: #2e5779;
+        border-radius: 4px;
+        cursor: pointer;
+            border: 2px solid #483D8B;
+            box-shadow: 2px 2px 0 0 #cd5c5c
+            3px 3px 0 0 #00008B;
+            transition-duration: 180ms;
+
+        }
+        .button:hover{
+            box-shadow: 3px 3px 0 0 #0c1e31,
+            3px 3px 0 0 #8B4513;
+            transform: translate(-2px -2px);
+        }
+    
+    .image div{
+        display: flex;
+        flex-direction: row;
+    }
+    .image-icon{
+       width: 300px;
+       height:100% ;
+    }
+ </style>
+</head>
+<body class="body">
+  <div class="Header">
+    <div class="left-sec">
+        <div>
+            <img src="home.svg" alt="tyr agian">
+        </div>
+       <div>
+        Home
+       </div>
+    </div>
+    <div class="middel-sec">
+        <h1>Tabnine.io</h1>
+    </div>
+    <div class="right-sec">
+        <div>
+           <a href="login.html" target="_blank"> 
+            <button class="button" type="button" >Sign in</button>
+        </a>
+        </div>
+        <div><a href="registerlog.html" target="_blank"><button class="button" type="button" >Register</button>
+        </a>
+    </div>
+    </div>
+    
+  </div>  
+ 
+  <div class="image">
+    
+    <div>
+        <img class="image-icon" src="1 (54).jpg" alt="try agian">
+    </div>
+    <div>
+        <img class="image-icon" src="1 (56).jpg" alt="try agian">
+    </div>
+   
+  </div>
+  
+</body>
+</html>
